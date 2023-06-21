@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --blue: #516FD4;
+    --light-grey: #FFFFFF;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px;
+    gap: 24px;
+    height: 128px;
+    width: 100%;
+    /*check*/
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    font-style: normal;
+}
+
+.user {
+    width: 91px;
+    height: 40px;
+    color: #151B32;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;    
+    /*check*/
+    height: 64px;    
+    align-self: stretch;
+    font-family: 'Poppins';    
+}
+
+.navi-search {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    width: 327px;  
+    height: 64px;
+    border: 1px solid #BFC8E6;
+    border-radius: 4px;
+    color: #151B32;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navi-right {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    width: 534px;    
+    height: 56px;
+    border-radius: 4px; 
+    margin-right: 100px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    width: 121px;
+    height: 56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navi-user {
+    background: #849FFF;
+    border-radius: 8px;
+    color: var(--light-grey);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: calc(100vh-128px);
+    padding: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: #FBFCFF;
+    border-radius: 16px;
+    border-style: none;
+}
+
+.card-image-content {    
+    padding: 24px;
+    gap: 16px;
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+}
+
+.card-detail {
+    order: 0;
+    flex-grow: 1;
+}
+
+.person-name {
+    width: 125px;
+    height: 23px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: #151B32;
+}
+
+.country {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.hobbies {
+    height: 2px;
+    width: 8px;
+    border-style: groove;
+    border-radius: 10px;
+    color: #516FD4;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #BFC8E6;
+    background: #FFFFFF;
+    padding:2px;
+}
+
+.card-jesus {
+    box-sizing: border-box;
+    background: #FBFCFF;
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+    border-radius: 16px;
+}
